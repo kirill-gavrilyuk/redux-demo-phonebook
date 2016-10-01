@@ -7,7 +7,7 @@ const initialState = {
     phoneBookLoadingInProgress: false,
     phoneBookLoaded: false,
     nameFilterChangedLast: false,
-    data: {}
+    phonebook: []
 };
 
 function appReducer(state = initialState, action) {
